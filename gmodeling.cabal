@@ -31,6 +31,7 @@ library
   exposed-modules:
     Statistics.GModeling.DSL
     Statistics.GModeling.Models.HMM
+    Statistics.GModeling.Models.LDA
   build-depends:
     base < 5
   hs-source-dirs:
