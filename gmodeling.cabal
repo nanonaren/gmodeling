@@ -30,6 +30,7 @@ executable gmodeling
 library
   exposed-modules:
     Statistics.GModeling.DSL
+    Statistics.GModeling.Models.HMM
   build-depends:
     base < 5
   hs-source-dirs:
