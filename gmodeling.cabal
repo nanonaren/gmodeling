@@ -35,7 +35,8 @@ library
     Statistics.GModeling.Models.LDA
     Statistics.GModeling.Models.FixedTreeLDA
   build-depends:
-    base < 5
+    base < 5,
+    vector
   hs-source-dirs:
     src
   default-language:

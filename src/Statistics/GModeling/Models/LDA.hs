@@ -12,6 +12,6 @@ lda =
   [
     Only Alpha :-> Topics
   , Only Beta :-> Symbols
-  , (Topics :@ [Doc]) :-> Topic
-  , (Symbols :@ [Topic]) :-> Symbol
+  , (Topics :@ Doc) :-> Topic
+  , (Symbols :@ Topic) :-> Symbol
   ]

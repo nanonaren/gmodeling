@@ -15,7 +15,7 @@ ldaTree =
     Only Alpha1         :-> TopicDepth
   , Only Alpha2         :-> TopicPath
   , Only Beta           :-> Symbols
-  , (TopicPath :@ [Doc])  :-> Topic
-  , (TopicDepth :@ [Doc]) :-> Topic
-  , (Symbols :@ [Topic])  :-> Symbol
+  , (TopicPath :@ Doc)  :-> Topic
+  , (TopicDepth :@ Doc) :-> Topic
+  , (Symbols :@ Topic)  :-> Symbol
   ]
